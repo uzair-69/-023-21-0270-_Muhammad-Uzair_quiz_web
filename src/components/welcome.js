@@ -5,6 +5,7 @@ import img2 from '../img/image 2.png';
 import prevIconImage from '../img/teenyicons_left-solid.png';
 import nextIconImage from '../img/teenyicons_right-solid.png';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 import Statistics from "./statistics";
 import  {SecurityUpdate}  from "./securityUpdate";
@@ -34,7 +35,8 @@ function welcome() {
             <p style={{ color: 'black' }}>Pinpoint is the fastest tracking and reservation software solution for personal and enterprise vehicles for institutes, offices and companies with live tracking, history recording, estimated arrival time and usage report generation and much more features</p>
             </div>
             <div className="col-md-6">
-            <Button
+            <Link to={"/about"}>
+            <Button 
       style={{
         backgroundColor: 'red',
         color: 'white',
@@ -45,6 +47,7 @@ function welcome() {
     >
         Get Started
     </Button>
+    </Link>
             </div>
         </div>
     </div>
