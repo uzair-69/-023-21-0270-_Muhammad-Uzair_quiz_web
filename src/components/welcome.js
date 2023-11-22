@@ -6,8 +6,8 @@ import prevIconImage from '../img/teenyicons_left-solid.png';
 import nextIconImage from '../img/teenyicons_right-solid.png';
 import Button from 'react-bootstrap/Button';
 
-import Statistics from "./components/statistics";
-import  {SecurityUpdate}  from "./components/securityUpdate";
+import Statistics from "./statistics";
+import  {SecurityUpdate}  from "./securityUpdate";
 
 function welcome() {
     return (
